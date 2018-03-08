@@ -553,6 +553,10 @@
         <NamedIndividual IRI="#Freiou"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme_du_rohan"/>
+        <NamedIndividual IRI="#Freiou"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#graug"/>
         <NamedIndividual IRI="#Graug1"/>
     </ClassAssertion>
@@ -565,6 +569,10 @@
         <NamedIndividual IRI="#Stefy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme_du_rohan"/>
+        <NamedIndividual IRI="#Stefy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homme"/>
         <NamedIndividual IRI="#T7"/>
     </ClassAssertion>
@@ -573,8 +581,16 @@
         <NamedIndividual IRI="#T7"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme_du_rohan"/>
+        <NamedIndividual IRI="#T7"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#rohirims"/>
         <NamedIndividual IRI="#T7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#aragorn"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#rodeur"/>
@@ -586,6 +602,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#elfe"/>
+        <NamedIndividual IRI="#arwen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme_du_rohan"/>
         <NamedIndividual IRI="#arwen"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -606,6 +626,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#garde_de_la_tour"/>
+        <NamedIndividual IRI="#faramir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme"/>
         <NamedIndividual IRI="#faramir"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -921,6 +945,10 @@
         <NamedIndividual IRI="#sam"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#sarauman"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#magicien_blanc"/>
         <NamedIndividual IRI="#sarauman"/>
     </ClassAssertion>
@@ -933,11 +961,19 @@
         <NamedIndividual IRI="#talion"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme_du_rohan"/>
+        <NamedIndividual IRI="#theodem"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#rohirims"/>
         <NamedIndividual IRI="#theodem"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#demoiselle_protectrice"/>
+        <NamedIndividual IRI="#éowyn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#homme_du_rohan"/>
         <NamedIndividual IRI="#éowyn"/>
     </ClassAssertion>
     <ClassAssertion>
