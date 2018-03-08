@@ -1,0 +1,1125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#connait -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#connait">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#estFamilleDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#estFamilleDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Femme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Femme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#demoiselle_protectrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#demoiselle_protectrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_rohan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elfe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elfe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_gondor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#haradrim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#haradrim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#semi_homme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_gondor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_gondor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_rohan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_rohan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_blanc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_blanc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_brun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_brun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_gris -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_gris">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nazgul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nazgul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#necromancien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#necromancien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog-hai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog-hai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#orc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#orc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_gondor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_rohan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#semi_homme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#semi_homme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Freiou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Freiou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Graug1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Graug1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Stefy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Stefy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
+        <connait rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#T7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#T7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#T7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
+        <connait rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Freiou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#aragorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#aragorn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#arwen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#arwen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elfe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#atchoum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#atchoum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#bilbon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#bilbon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elrond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elrond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elfe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#faramir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#faramir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#frodon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#frodon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#galadriel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#galadriel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elfe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gamelin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gamelin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gandalf_le_blanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gandalf_le_blanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_blanc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gandalf_le_gris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gandalf_le_gris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_gris"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#grincheux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#grincheux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#héomère -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#héomère">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance40">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance42">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance43">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance44">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance50">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance51 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance51">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance52 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance52">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance53 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance53">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance54">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance55 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance55">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance60 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance60">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance61 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance61">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance62 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance62">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance63 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance63">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance64 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance64">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance65 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance65">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance66">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance70 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance70">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance71 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance71">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance72">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance73 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance73">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance74 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance74">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance75 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance75">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance76">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance77 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance77">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance80 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance80">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance81 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance81">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance82 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance82">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance83 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance83">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance84 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance84">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance85 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance85">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance86 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance86">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance87">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance88 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance88">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance90">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance91 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance91">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance92 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance92">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance93 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance93">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance94 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance94">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance95">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance96">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance97">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance98">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#isildur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#isildur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nazgul"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#joyeux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#joyeux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#la_bouche_de_sauron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#la_bouche_de_sauron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#orc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#la_tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#la_tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#orc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#morgoth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#morgoth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#necromancien"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#méry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#méry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog-hai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog-hai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#pipin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#pipin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sarauman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sarauman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_blanc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sauron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sauron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#necromancien"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#talion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#talion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#theodem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#theodem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#éowyn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#éowyn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#demoiselle_protectrice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#roi_sorcier_d&apos;angmar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#roi_sorcier_d&apos;angmar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nazgul"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
