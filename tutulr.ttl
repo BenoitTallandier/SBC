@@ -1,0 +1,724 @@
+@prefix : <http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11> .
+
+<http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#connait
+:connait rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#estFamilleDe
+:estFamilleDe rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Femme
+:Femme rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme
+:Homme rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor
+:caragor rdf:type owl:Class ;
+         rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe1
+:classe1 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe2
+:classe2 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe3
+:classe3 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe4
+:classe4 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe5
+:classe5 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe6
+:classe6 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe7
+:classe7 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe8
+:classe8 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#classe9
+:classe9 rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#creature_du_mordor
+:creature_du_mordor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#demoiselle_protectrice
+:demoiselle_protectrice rdf:type owl:Class ;
+                        rdfs:subClassOf :homme_du_rohan .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elfe
+:elfe rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour
+:garde_de_la_tour rdf:type owl:Class ;
+                  rdfs:subClassOf :homme_du_gondor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin
+:goblin rdf:type owl:Class ;
+        rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug
+:graug rdf:type owl:Class ;
+       rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#haradrim
+:haradrim rdf:type owl:Class ;
+          rdfs:subClassOf :homme .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit
+:hobbit rdf:type owl:Class ;
+        rdfs:subClassOf :semi_homme .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme
+:homme rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_gondor
+:homme_du_gondor rdf:type owl:Class ;
+                 rdfs:subClassOf :homme .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme_du_rohan
+:homme_du_rohan rdf:type owl:Class ;
+                rdfs:subClassOf :homme .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien
+:magicien rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_blanc
+:magicien_blanc rdf:type owl:Class ;
+                rdfs:subClassOf :magicien .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_brun
+:magicien_brun rdf:type owl:Class ;
+               rdfs:subClassOf :magicien .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_gris
+:magicien_gris rdf:type owl:Class ;
+               rdfs:subClassOf :magicien .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nain
+:nain rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#nazgul
+:nazgul rdf:type owl:Class ;
+        rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#necromancien
+:necromancien rdf:type owl:Class ;
+              rdfs:subClassOf :magicien .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog-hai
+:olog-hai rdf:type owl:Class ;
+          rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#orc
+:orc rdf:type owl:Class ;
+     rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur
+:rodeur rdf:type owl:Class ;
+        rdfs:subClassOf :homme_du_gondor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims
+:rohirims rdf:type owl:Class ;
+          rdfs:subClassOf :homme_du_rohan .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#semi_homme
+:semi_homme rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe1
+:sous_classe1 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe10
+:sous_classe10 rdf:type owl:Class ;
+               rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe2
+:sous_classe2 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe3
+:sous_classe3 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe4
+:sous_classe4 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe5
+:sous_classe5 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe6
+:sous_classe6 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe7
+:sous_classe7 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe8
+:sous_classe8 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sous_classe9
+:sous_classe9 rdf:type owl:Class ;
+              rdfs:subClassOf :creature_du_mordor .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Freiou
+:Freiou rdf:type owl:NamedIndividual ,
+                 :Homme ,
+                 :homme ,
+                 :homme_du_rohan .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Graug1
+:Graug1 rdf:type owl:NamedIndividual ,
+                 :graug .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Stefy
+:Stefy rdf:type owl:NamedIndividual ,
+                :Homme ,
+                :homme ,
+                :homme_du_rohan ;
+       :connait :T7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#T7
+:T7 rdf:type owl:NamedIndividual ,
+             :Homme ,
+             :homme ,
+             :homme_du_rohan ,
+             :rohirims ;
+    :connait :Freiou .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#aragorn
+:aragorn rdf:type owl:NamedIndividual ,
+                  :homme ,
+                  :rodeur ,
+                  :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#arwen
+:arwen rdf:type owl:NamedIndividual ,
+                :elfe ,
+                :homme_du_rohan .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#atchoum
+:atchoum rdf:type owl:NamedIndividual ,
+                  :nain .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#bilbon
+:bilbon rdf:type owl:NamedIndividual ,
+                 :hobbit .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#caragor1
+:caragor1 rdf:type owl:NamedIndividual ,
+                   :caragor .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#elrond
+:elrond rdf:type owl:NamedIndividual ,
+                 :elfe .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#faramir
+:faramir rdf:type owl:NamedIndividual ,
+                  :garde_de_la_tour ,
+                  :homme .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#frodon
+:frodon rdf:type owl:NamedIndividual ,
+                 :hobbit .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#galadriel
+:galadriel rdf:type owl:NamedIndividual ,
+                    :elfe .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gamelin
+:gamelin rdf:type owl:NamedIndividual ,
+                  :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gandalf_le_blanc
+:gandalf_le_blanc rdf:type owl:NamedIndividual ,
+                           :magicien_blanc .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#gandalf_le_gris
+:gandalf_le_gris rdf:type owl:NamedIndividual ,
+                          :magicien_gris .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#goblin1
+:goblin1 rdf:type owl:NamedIndividual ,
+                  :goblin .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#graug2
+:graug2 rdf:type owl:NamedIndividual ,
+                 :graug .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#grincheux
+:grincheux rdf:type owl:NamedIndividual ,
+                    :nain .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#héomère
+:héomère rdf:type owl:NamedIndividual ,
+                  :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance10
+:instance10 rdf:type owl:NamedIndividual ,
+                     :classe1 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance11
+:instance11 rdf:type owl:NamedIndividual ,
+                     :classe1 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance20
+:instance20 rdf:type owl:NamedIndividual ,
+                     :classe2 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance21
+:instance21 rdf:type owl:NamedIndividual ,
+                     :classe2 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance22
+:instance22 rdf:type owl:NamedIndividual ,
+                     :classe2 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance30
+:instance30 rdf:type owl:NamedIndividual ,
+                     :classe3 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance31
+:instance31 rdf:type owl:NamedIndividual ,
+                     :classe3 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance32
+:instance32 rdf:type owl:NamedIndividual ,
+                     :classe3 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance33
+:instance33 rdf:type owl:NamedIndividual ,
+                     :classe3 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance40
+:instance40 rdf:type owl:NamedIndividual ,
+                     :classe4 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance41
+:instance41 rdf:type owl:NamedIndividual ,
+                     :classe4 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance42
+:instance42 rdf:type owl:NamedIndividual ,
+                     :classe4 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance43
+:instance43 rdf:type owl:NamedIndividual ,
+                     :classe4 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance44
+:instance44 rdf:type owl:NamedIndividual ,
+                     :classe4 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance50
+:instance50 rdf:type owl:NamedIndividual ,
+                     :classe5 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance51
+:instance51 rdf:type owl:NamedIndividual ,
+                     :classe5 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance52
+:instance52 rdf:type owl:NamedIndividual ,
+                     :classe5 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance53
+:instance53 rdf:type owl:NamedIndividual ,
+                     :classe5 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance54
+:instance54 rdf:type owl:NamedIndividual ,
+                     :classe5 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance55
+:instance55 rdf:type owl:NamedIndividual ,
+                     :classe5 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance60
+:instance60 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance61
+:instance61 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance62
+:instance62 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance63
+:instance63 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance64
+:instance64 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance65
+:instance65 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance66
+:instance66 rdf:type owl:NamedIndividual ,
+                     :classe6 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance70
+:instance70 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance71
+:instance71 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance72
+:instance72 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance73
+:instance73 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance74
+:instance74 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance75
+:instance75 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance76
+:instance76 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance77
+:instance77 rdf:type owl:NamedIndividual ,
+                     :classe7 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance80
+:instance80 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance81
+:instance81 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance82
+:instance82 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance83
+:instance83 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance84
+:instance84 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance85
+:instance85 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance86
+:instance86 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance87
+:instance87 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance88
+:instance88 rdf:type owl:NamedIndividual ,
+                     :classe8 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance90
+:instance90 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance91
+:instance91 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance92
+:instance92 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance93
+:instance93 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance94
+:instance94 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance95
+:instance95 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance96
+:instance96 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance97
+:instance97 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance98
+:instance98 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#instance99
+:instance99 rdf:type owl:NamedIndividual ,
+                     :classe9 .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#isildur
+:isildur rdf:type owl:NamedIndividual ,
+                  :nazgul .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#joyeux
+:joyeux rdf:type owl:NamedIndividual ,
+                 :nain .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#la_bouche_de_sauron
+:la_bouche_de_sauron rdf:type owl:NamedIndividual ,
+                              :orc .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#la_tour
+:la_tour rdf:type owl:NamedIndividual ,
+                  :orc .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#morgoth
+:morgoth rdf:type owl:NamedIndividual ,
+                  :necromancien .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#méry
+:méry rdf:type owl:NamedIndividual ,
+               :hobbit ,
+               :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog1
+:olog1 rdf:type owl:NamedIndividual ,
+                :olog-hai .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#olog2
+:olog2 rdf:type owl:NamedIndividual ,
+                :olog-hai .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#pipin
+:pipin rdf:type owl:NamedIndividual ,
+                :garde_de_la_tour ,
+                :hobbit .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirim2
+:rohirim2 rdf:type owl:NamedIndividual ,
+                   :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirim3
+:rohirim3 rdf:type owl:NamedIndividual ,
+                   :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims1
+:rohirims1 rdf:type owl:NamedIndividual ,
+                    :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sam
+:sam rdf:type owl:NamedIndividual ,
+              :hobbit .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sarauman
+:sarauman rdf:type owl:NamedIndividual ,
+                   :homme ,
+                   :magicien_blanc .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sauron
+:sauron rdf:type owl:NamedIndividual ,
+                 :necromancien .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#talion
+:talion rdf:type owl:NamedIndividual ,
+                 :rodeur .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#theodem
+:theodem rdf:type owl:NamedIndividual ,
+                  :homme_du_rohan ,
+                  :rohirims .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#éowyn
+:éowyn rdf:type owl:NamedIndividual ,
+                :demoiselle_protectrice ,
+                :homme_du_rohan .
+
+
+###  http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#roi_sorcier_d'angmar
+:angmar rdf:type owl:NamedIndividual ,
+                 :nazgul .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
