@@ -19,16 +19,28 @@
         <Class IRI="#homme_du_gondor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#classe7"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#graug2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sarauman"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#classe3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe4"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#olog2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#grincheux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe8"/>
     </Declaration>
     <Declaration>
         <Class IRI="#homme"/>
@@ -58,6 +70,9 @@
         <NamedIndividual IRI="#la_bouche_de_sauron"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#classe6"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#magicien"/>
     </Declaration>
     <Declaration>
@@ -65,6 +80,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sauron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classe2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#rodeur"/>
@@ -88,10 +112,22 @@
         <NamedIndividual IRI="#T7"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#classe9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#nazgul"/>
     </Declaration>
     <Declaration>
         <Class IRI="#creature_du_mordor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classe5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe6"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Homme"/>
@@ -101,6 +137,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#morgoth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classe1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Personne"/>
@@ -148,7 +187,13 @@
         <NamedIndividual IRI="#éowyn"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#sous_classe1"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#connait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classe8"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#talion"/>
@@ -160,7 +205,16 @@
         <Class IRI="#magicien_brun"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#classe4"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#caragor1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe9"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stefy"/>
@@ -188,6 +242,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#estFamilleDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sous_classe10"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#pipin"/>
@@ -286,6 +343,46 @@
     <SubClassOf>
         <Class IRI="#rohirims"/>
         <Class IRI="#homme_du_rohan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe1"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe10"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe2"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe3"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe4"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe5"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe6"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe7"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe8"/>
+        <Class IRI="#creature_du_mordor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sous_classe9"/>
+        <Class IRI="#creature_du_mordor"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Homme"/>
