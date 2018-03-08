@@ -1,0 +1,12 @@
+Remarques :
+    - est ce que l'arbre part des Abox et utilise les Tbox reliées?
+
+Stratégie :
+    strat1 = {
+        1. lire les 10 classes les plus intentiées dans la Abox
+        2. construire ajouter les noeuds de la TBox ayant un lien avec les 10 classes intentié en ABox
+    }
+    strat2 = {
+        1. construire le graph entier Tbox
+        2. regarder les 10 classes les plus intentiées pour chaque noeud (range, domain, subclasse)
+    }
