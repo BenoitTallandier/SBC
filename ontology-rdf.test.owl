@@ -1,0 +1,1151 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.hexaki.fr:443/sparql#"
+     xml:base="http://www.hexaki.fr:443/sparql"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.hexaki.fr:443/sparql"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#connait -->
+
+    <owl:ObjectProperty rdf:about="http://www.hexaki.fr:443/sparql#connait">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#estFamilleDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.hexaki.fr:443/sparql#estFamilleDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#Femme -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#Femme"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#Homme -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#Homme"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#caragor -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#caragor">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe1 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe1"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe2 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe2"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe3 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe3"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe4 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe4"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe5 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe5"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe6 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe6"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe7 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe7"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe8 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe8"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#classe9 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#classe9"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#creature_du_mordor -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#demoiselle_protectrice -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#demoiselle_protectrice">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#elfe -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#elfe"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#garde_de_la_tour -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#garde_de_la_tour">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_gondor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#goblin -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#goblin">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#graug -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#graug">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#haradrim -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#haradrim">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#hobbit -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#hobbit">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#semi_homme"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#homme -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#homme"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#homme_du_gondor -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#homme_du_gondor">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#homme_du_rohan -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#homme_du_rohan">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#magicien -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#magicien"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#magicien_blanc -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#magicien_blanc">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#magicien"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#magicien_brun -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#magicien_brun">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#magicien"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#magicien_gris -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#magicien_gris">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#magicien"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#nain -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#nain"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#nazgul -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#nazgul">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#necromancien -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#necromancien">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#magicien"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#olog-hai -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#olog-hai">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#orc -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#orc">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#rodeur -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#rodeur">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_gondor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#rohirims -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#rohirims">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#semi_homme -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#semi_homme"/>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe1 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe1">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe10 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe10">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe2 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe2">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe3 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe3">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe4 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe4">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe5 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe5">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe6 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe6">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe7 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe7">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe8 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe8">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sous_classe9 -->
+
+    <owl:Class rdf:about="http://www.hexaki.fr:443/sparql#sous_classe9">
+        <rdfs:subClassOf rdf:resource="http://www.hexaki.fr:443/sparql#creature_du_mordor"/>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#Freiou -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#Freiou">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#Homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#Graug1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#Graug1">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#graug"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#Stefy -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#Stefy">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#Homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+        <connait rdf:resource="http://www.hexaki.fr:443/sparql#T7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#T7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#T7">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#Homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+        <connait rdf:resource="http://www.hexaki.fr:443/sparql#Freiou"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#aragorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#aragorn">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rodeur"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#arwen -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#arwen">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#elfe"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#atchoum -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#atchoum">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#nain"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#bilbon -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#bilbon">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#hobbit"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#caragor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#caragor1">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#caragor"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#elrond -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#elrond">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#elfe"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#faramir -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#faramir">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#garde_de_la_tour"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#frodon -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#frodon">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#hobbit"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#galadriel -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#galadriel">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#elfe"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#gamelin -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#gamelin">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#gandalf_le_blanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#gandalf_le_blanc">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#magicien_blanc"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#gandalf_le_gris -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#gandalf_le_gris">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#magicien_gris"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#goblin1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#goblin1">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#goblin"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#graug2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#graug2">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#graug"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#grincheux -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#grincheux">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#nain"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#héomère -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#héomère">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance10">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe1"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance11">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe1"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance20">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe2"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance21">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe2"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance22">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe2"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance30">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe3"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance31">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe3"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance32">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe3"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance33">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe3"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance40">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe4"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance41">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe4"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance42">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe4"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance43">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe4"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance44 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance44">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe4"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance50">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe5"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance51 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance51">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe5"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance52 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance52">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe5"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance53 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance53">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe5"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance54 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance54">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe5"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance55 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance55">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe5"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance60 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance60">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance61 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance61">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance62 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance62">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance63 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance63">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance64 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance64">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance65 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance65">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance66">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe6"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance70 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance70">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance71 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance71">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance72 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance72">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance73 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance73">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance74 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance74">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance75 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance75">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance76">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance77 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance77">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe7"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance80 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance80">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance81 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance81">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance82 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance82">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance83 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance83">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance84 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance84">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance85 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance85">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance86 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance86">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance87">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance88 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance88">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe8"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance90">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance91 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance91">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance92 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance92">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance93 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance93">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance94 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance94">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance95">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance96">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance97">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance98">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#instance99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#instance99">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#classe9"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#isildur -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#isildur">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#nazgul"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#joyeux -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#joyeux">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#nain"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#la_bouche_de_sauron -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#la_bouche_de_sauron">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#orc"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#la_tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#la_tour">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#orc"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#morgoth -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#morgoth">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#necromancien"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#méry -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#méry">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#hobbit"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#olog1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#olog1">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#olog-hai"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#olog2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#olog2">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#olog-hai"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#pipin -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#pipin">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#garde_de_la_tour"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#hobbit"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#rohirim2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#rohirim2">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#rohirim3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#rohirim3">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#rohirims1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#rohirims1">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sam -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#sam">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#hobbit"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sarauman -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#sarauman">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#magicien_blanc"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#sauron -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#sauron">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#necromancien"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#talion -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#talion">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rodeur"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#theodem -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#theodem">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#rohirims"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#éowyn -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#éowyn">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#demoiselle_protectrice"/>
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#homme_du_rohan"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.hexaki.fr:443/sparql#roi_sorcier_d&apos;angmar -->
+
+    <owl:NamedIndividual rdf:about="http://www.hexaki.fr:443/sparql#roi_sorcier_d&apos;angmar">
+        <rdf:type rdf:resource="http://www.hexaki.fr:443/sparql#nazgul"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
