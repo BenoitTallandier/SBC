@@ -85,13 +85,13 @@
         <Class IRI="#Femme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#demoiselle_protectrice"/>
+        <NamedIndividual IRI="#méry"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance91"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#méry"/>
+        <Class IRI="#demoiselle_protectrice"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#T7"/>
@@ -118,10 +118,10 @@
         <NamedIndividual IRI="#instance31"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance43"/>
+        <Class IRI="#sous_classe6"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sous_classe6"/>
+        <NamedIndividual IRI="#instance43"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance55"/>
@@ -136,9 +136,6 @@
         <NamedIndividual IRI="#galadriel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Personne"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#classe1"/>
     </Declaration>
     <Declaration>
@@ -146,6 +143,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#bilbon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rohirims1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#caragor"/>
@@ -163,10 +163,10 @@
         <NamedIndividual IRI="#gandalf_le_blanc"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#éowyn"/>
+        <NamedIndividual IRI="#instance70"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance70"/>
+        <NamedIndividual IRI="#éowyn"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#connait"/>
@@ -181,19 +181,19 @@
         <NamedIndividual IRI="#instance94"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#magicien_brun"/>
+        <NamedIndividual IRI="#instance30"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance30"/>
+        <Class IRI="#magicien_brun"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#talion"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance42"/>
+        <Class IRI="#sous_classe5"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sous_classe5"/>
+        <NamedIndividual IRI="#instance42"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance54"/>
@@ -211,10 +211,10 @@
         <NamedIndividual IRI="#gamelin"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#sam"/>
+        <Class IRI="#garde_de_la_tour"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#garde_de_la_tour"/>
+        <NamedIndividual IRI="#sam"/>
     </Declaration>
     <Declaration>
         <Class IRI="#sous_classe10"/>
@@ -232,13 +232,16 @@
         <NamedIndividual IRI="#instance81"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#homme_du_gondor"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#goblin1"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#homme_du_gondor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#instance61"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rohirim3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance73"/>
@@ -250,10 +253,10 @@
         <NamedIndividual IRI="#instance97"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#graug2"/>
+        <NamedIndividual IRI="#instance21"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance21"/>
+        <NamedIndividual IRI="#graug2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance33"/>
@@ -262,10 +265,10 @@
         <NamedIndividual IRI="#sarauman"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#classe3"/>
+        <Class IRI="#sous_classe4"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sous_classe4"/>
+        <Class IRI="#classe3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#grincheux"/>
@@ -295,10 +298,10 @@
         <NamedIndividual IRI="#instance84"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#magicien"/>
+        <NamedIndividual IRI="#instance96"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance96"/>
+        <Class IRI="#magicien"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance20"/>
@@ -316,10 +319,10 @@
         <Class IRI="#classe2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#sauron"/>
+        <Class IRI="#sous_classe3"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sous_classe3"/>
+        <NamedIndividual IRI="#sauron"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#roi_sorcier_d&apos;angmar"/>
@@ -379,10 +382,13 @@
         <NamedIndividual IRI="#instance62"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#nain"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#instance74"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#nain"/>
+        <NamedIndividual IRI="#caragor1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#classe4"/>
@@ -391,13 +397,13 @@
         <NamedIndividual IRI="#instance86"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#caragor1"/>
+        <NamedIndividual IRI="#instance98"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance10"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#instance98"/>
+        <NamedIndividual IRI="#rohirim2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#instance22"/>
@@ -426,14 +432,6 @@
     <Declaration>
         <NamedIndividual IRI="#Graug1"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Femme"/>
-        <Class IRI="#Personne"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Homme"/>
-        <Class IRI="#Personne"/>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#caragor"/>
         <Class IRI="#creature_du_mordor"/>
@@ -551,6 +549,10 @@
         <NamedIndividual IRI="#Freiou"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#Freiou"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#graug"/>
         <NamedIndividual IRI="#Graug1"/>
     </ClassAssertion>
@@ -559,11 +561,27 @@
         <NamedIndividual IRI="#Stefy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#Stefy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Homme"/>
         <NamedIndividual IRI="#T7"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#homme"/>
+        <NamedIndividual IRI="#T7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rohirims"/>
+        <NamedIndividual IRI="#T7"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#rodeur"/>
+        <NamedIndividual IRI="#aragorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rohirims"/>
         <NamedIndividual IRI="#aragorn"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -867,6 +885,10 @@
         <NamedIndividual IRI="#méry"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#rohirims"/>
+        <NamedIndividual IRI="#méry"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#olog-hai"/>
         <NamedIndividual IRI="#olog1"/>
     </ClassAssertion>
@@ -881,6 +903,18 @@
     <ClassAssertion>
         <Class IRI="#hobbit"/>
         <NamedIndividual IRI="#pipin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rohirims"/>
+        <NamedIndividual IRI="#rohirim2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rohirims"/>
+        <NamedIndividual IRI="#rohirim3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rohirims"/>
+        <NamedIndividual IRI="#rohirims1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#hobbit"/>
@@ -928,14 +962,6 @@
         <ObjectProperty IRI="#estFamilleDe"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#connait"/>
-        <Class IRI="#Personne"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#connait"/>
-        <Class IRI="#Personne"/>
-    </ObjectPropertyRange>
 </Ontology>
 
 

@@ -426,6 +426,7 @@
     <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#aragorn -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#aragorn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
     </owl:NamedIndividual>
@@ -476,6 +477,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#faramir">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
     </owl:NamedIndividual>
     
 
@@ -1093,6 +1095,7 @@
     <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sarauman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#sarauman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#magicien_blanc"/>
     </owl:NamedIndividual>
     
