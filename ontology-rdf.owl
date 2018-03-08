@@ -25,8 +25,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#connait">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
     </owl:ObjectProperty>
     
 
@@ -52,23 +50,13 @@
 
     <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Femme -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Femme">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Femme"/>
     
 
 
     <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Personne"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
     
 
 
@@ -401,6 +389,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Freiou">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
     </owl:NamedIndividual>
     
 
@@ -417,6 +406,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Stefy">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
         <connait rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#T7"/>
     </owl:NamedIndividual>
     
@@ -426,6 +416,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#T7">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Homme"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#homme"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
         <connait rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#Freiou"/>
     </owl:NamedIndividual>
     
@@ -435,6 +427,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#aragorn">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rodeur"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
     </owl:NamedIndividual>
     
 
@@ -1035,6 +1028,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#méry">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
     </owl:NamedIndividual>
     
 
@@ -1060,6 +1054,30 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#pipin">
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#garde_de_la_tour"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#hobbit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirim2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirim2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirim3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirim3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#rohirims"/>
     </owl:NamedIndividual>
     
 
