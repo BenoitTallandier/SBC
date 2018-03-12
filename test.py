@@ -19,8 +19,6 @@ def createInstance (nameInstance,className):
     f.edge(nameInstance,className,'rdf:type')
 
 def createRelation (relationRange,domain,relationName):
-    print("############")
-    f.attr('node', shape='box')
     f.node(relationRange)
     f.node(domain)
     f.edge(relationRange,domain,relationName)
@@ -144,7 +142,7 @@ for className in classesNames:
 
 
 for prop in properties:
-    propertiesQuery= """
+    propertiesQuery2= """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -152,20 +150,20 @@ for prop in properties:
     PREFIX me: <"""+me+"""#>    SELECT  ?d ?r
     WHERE
     {
-	?d me:"""+prop+"""?r.
+	?d me:"""+prop[0]+""" ?r.
     }
     """
 
-    print (propertiesQuery)
+    print (propertiesQuery2)
 
-    rows = g.query(propertiesQuery)
+    rows = g.query(propertiesQuery2)
 
     for row in rows:
         if(len(row[0].split("#"))>1):
             domainInstance = row[0].split("#")[1]
         if(len(row[0].split("#"))>1):
             rangeInstance = row[1].split("#")[1]
-        newRow = (domainInstance,rangeInstance,prop)
+        newRow = (domainInstance,prop[0],rangeInstance)
 
         if newRow not in propertiesEffective:
             propertiesEffective.append(newRow)
@@ -180,8 +178,8 @@ for prop in properties:
     createRelation(prop[1],prop[2],prop[0])
 
 for prop in propertiesEffective:
-    print "d:%s p:%s r:%s" %(prop[2],prop[1],prop[2])
-    #createRelation(prop[1],prop[2],prop[0])
+    #print "d:%s p:%s r:%s" %(prop[0],prop[1],prop[2])
+    createRelation(prop[0],prop[2],prop[1])
 
 for classe in classes:
     #print "%s subClassOf of %s" %(classe[0],classe[1])
@@ -192,7 +190,7 @@ for classe in classesNames:
     pass
 
 #f.render('test-output/round-table.gv', view=True)
-#f.view()
+f.view()
 
 
 # for s,p,o in g:
