@@ -30,7 +30,7 @@ f.edge('LR_8', 'LR_6', label='S(b)')
 f.edge('LR_8', 'LR_5', label='S(a)')
 
 g=rdflib.Graph()
-g.load('/Users/Stefy/Documents/telecomNancy3A/SBC/SBC/ontology-rdf.owl')
+g.load('ontology-rdf.owl')
 
 qres = g.query(
     """
