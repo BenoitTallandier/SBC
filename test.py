@@ -3,9 +3,18 @@
 from graphviz import Digraph
 import rdflib
 
+limitInstance = raw_input("Nb max instance(0=inf) : ")
+maxProperties = raw_input("Nb max properties(0=inf) : ")
+afficherABox = raw_input("Afficher ABox (O/N) : ")
+
+if(afficherABox=="O" or afficherABox=="o"):
+    afficherABox = True
+else:
+    afficherABox = False
 
 f = Digraph('hierarchie', filename='visualisation.gv')
 f.attr(rankdir='LR', size='8,5')
+
 
 def createClass (nameClass,parentName):
     f.attr('node', shape='circle')
@@ -34,13 +43,16 @@ individues = g.query(
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-    SELECT ?sub ?type
+    SELECT ?sub ?type (COUNT(?sub) as ?subCount)
     WHERE {
         ?sub rdf:type ?type.
         ?sub a ?class.
-      FILTER( ?class = owl:NamedIndividual).
-      FILTER (?type != owl:NamedIndividual)
-    }""")
+        FILTER( ?class = owl:NamedIndividual).
+        FILTER (?type != owl:NamedIndividual)
+    }
+    GROUP BY ?sub
+    ORDER BY DESC(?subCount)
+    """+("LIMIT "+str(limitInstance) if(int(limitInstance))>0 else ""))
 
 instances = []
 classes = []
@@ -119,12 +131,15 @@ for className in classesNames:
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     PREFIX me: <"""+me+"""#>
-    SELECT DISTINCT ?p ?r ?d
+    SELECT DISTINCT ?p ?r ?d (COUNT(?p) as ?propertiesCount)
     WHERE {
     {?p rdfs:range me:"""+className+"""} UNION {?p rdfs:domain me:"""+className+"""}.
     ?p rdfs:range ?r.
     ?p rdfs:domain ?d.
-    }"""
+    }
+    GROUP BY ?p
+    ORDER BY DESC(?propertiesCount)
+    """+("LIMIT "+str(maxProperties) if (int(maxProperties)>0) else "" )
 
     rows = g.query(propertiesQuery)
 
@@ -224,18 +239,19 @@ for prop in properties:
         properties.append(newRow)
 
 
-
-for classe in instances:
-    createInstance(classe[0],classe[1])
-    #print "%s instance of %s" %(classe[0],classe[1])
+if(afficherABox):
+    for classe in instances:
+        createInstance(classe[0],classe[1])
+        #print "%s instance of %s" %(classe[0],classe[1])
 
 for prop in properties:
     #print "prop:%s range:%s dom:%s" %(prop[0],prop[1],prop[2])
     createRelation(prop[1],prop[2],prop[0])
 
-for prop in propertiesEffective:
-    #print "d:%s p:%s r:%s" %(prop[0],prop[1],prop[2])
-    createRelation(prop[0],prop[2],prop[1])
+if(afficherABox):
+    for prop in propertiesEffective:
+        #print "d:%s p:%s r:%s" %(prop[0],prop[1],prop[2])
+        createRelation(prop[0],prop[2],prop[1])
 
 for classe in classes:
     #print "%s subClassOf of %s" %(classe[0],classe[1])
