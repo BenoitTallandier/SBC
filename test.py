@@ -37,16 +37,18 @@ qres = g.query(
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     PREFIX me: <http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#>
-    SELECT ?entity ?type
+    SELECT ?sub ?type
     WHERE {
-      ?entity rdf:type ?type.
+        ?sub rdf:type ?type.
+        ?sub a ?class.
+      FILTER( ?class = owl:NamedIndividual).
+      FILTER (?type != owl:NamedIndividual)
     }""")
-
 for row in qres:
     if(len(row[0].split("#"))>1 and len(row[1].split("#"))>1):
         instance = row[0].split("#")[1]
         className = row[1].split("#")[1]
-        print("%s knows %s" %(instance, className))
-
+        print("%s is %s" %(instance, className))
+print(len(qres))
 # for s,p,o in g:
 #    print s,p,o
