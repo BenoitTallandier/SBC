@@ -2,30 +2,38 @@
 
 from graphviz import Digraph
 import rdflib
-f = Digraph('finite_state_machine', filename='fsm.gv')
+
+
+f = Digraph('hierarchie', filename='visualisation.gv')
 f.attr(rankdir='LR', size='8,5')
 
-f.attr('node', shape='doublecircle')
-f.node('LR_0')
-f.node('LR_3')
-f.node('LR_4')
-f.node('LR_8')
 
-f.attr('node', shape='circle')
-f.edge('LR_0', 'LR_2', label='SS(B)')
-f.edge('LR_0', 'LR_1', label='SS(S)')
-f.edge('LR_1', 'LR_3', label='S($end)')
-f.edge('LR_2', 'LR_6', label='SS(b)')
-f.edge('LR_2', 'LR_5', label='SS(a)')
-f.edge('LR_2', 'LR_4', label='S(A)')
-f.edge('LR_5', 'LR_7', label='S(b)')
-f.edge('LR_5', 'LR_5', label='S(a)')
-f.edge('LR_6', 'LR_6', label='S(b)')
-f.edge('LR_6', 'LR_5', label='S(a)')
-f.edge('LR_7', 'LR_8', label='S(b)')
-f.edge('LR_7', 'LR_5', label='S(a)')
-f.edge('LR_8', 'LR_6', label='S(b)')
-f.edge('LR_8', 'LR_5', label='S(a)')
+def createClass (nameClass,parentName):
+    f.attr('node', shape='circle')
+    f.edge(nameClass,parentName,'rdf:subClassOf')
+
+def createInstance (nameInstance,className):
+    f.attr('node', shape='circle')
+    f.node(className)
+    f.attr('node', shape='box')
+    f.edge(nameInstance,className,'rdf:type')
+
+def createRelation (relationRange,domain,relationName):
+    f.attr('node', shape='box')
+    f.node(relationRange)
+    f.node(domain)
+    f.edge(relationRange,domain,relationName)
+
+
+createInstance('freiou','Homme')
+createInstance('beubeuh','Homme')
+createClass('Homme','Homme')
+createClass('Homme','Creature')
+createRelation('beubeuh','freiou','encule')
+createRelation('freiou','T7','encule')
+createRelation('T7','beubeuh','encule')
+
+
 
 g=rdflib.Graph()
 g.load('ontology-rdf.owl')
@@ -70,6 +78,8 @@ for row in individues:
         WHERE {
             me:"""+className+""" rdfs:subClassOf ?class.
         }"""
+
+        print test
 
         newClassesMere = g.query(test)
 
@@ -151,8 +161,16 @@ for classe in classes:
     #print "%s subClassOf of %s" %(classe[0],classe[1])
     pass
 
+for classe in classes:
+    print "%s subClassOf of %s" %(classe[0],classe[1])
+    createClass(classe[0],classe[1])
+
 for classe in classesNames:
     print "%s " %(classe)
+
+
+
+f.view()
 
 
 # for s,p,o in g:
