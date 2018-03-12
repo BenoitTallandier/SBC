@@ -47,6 +47,7 @@ instances = []
 classes = []
 classesNames = []
 properties = []
+propertiesEffective = []
 
 me = False
 
@@ -70,7 +71,7 @@ for row in individues:
             me:"""+className+""" rdfs:subClassOf ?class.
         }"""
 
-        print test
+        #print test
 
         newClassesMere = g.query(test)
 
@@ -140,23 +141,57 @@ for className in classesNames:
         if newRow not in properties:
             properties.append(newRow)
 
+
+for prop in properties:
+    propertiesQuery= """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    PREFIX me: <"""+me+"""#>    SELECT  ?d ?r
+    WHERE
+    {
+	?d me:"""+prop+"""?r.
+    }
+    """
+
+    print (propertiesQuery)
+
+    rows = g.query(propertiesQuery)
+
+    for row in rows:
+        if(len(row[0].split("#"))>1):
+            domainInstance = row[0].split("#")[1]
+        if(len(row[0].split("#"))>1):
+            rangeInstance = row[1].split("#")[1]
+        newRow = (domainInstance,rangeInstance,prop)
+
+        if newRow not in propertiesEffective:
+            propertiesEffective.append(newRow)
+
+
 for classe in instances:
     createInstance(classe[0],classe[1])
     #print "%s instance of %s" %(classe[0],classe[1])
 
 for prop in properties:
-    print "prop:%s range:%s dom:%s" %(prop[0],prop[1],prop[2])
+    #print "prop:%s range:%s dom:%s" %(prop[0],prop[1],prop[2])
     createRelation(prop[1],prop[2],prop[0])
 
+for prop in propertiesEffective:
+    print "d:%s p:%s r:%s" %(prop[2],prop[1],prop[2])
+    #createRelation(prop[1],prop[2],prop[0])
+
 for classe in classes:
-    print "%s subClassOf of %s" %(classe[0],classe[1])
+    #print "%s subClassOf of %s" %(classe[0],classe[1])
     createClass(classe[0],classe[1])
 
 for classe in classesNames:
-    print "%s " %(classe)
+    #print "%s " %(classe)
+    pass
 
 #f.render('test-output/round-table.gv', view=True)
-f.view()
+#f.view()
 
 
 # for s,p,o in g:
