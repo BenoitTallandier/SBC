@@ -33,7 +33,7 @@ createRelation('beubeuh','freiou','encule')
 createRelation('freiou','T7','encule')
 createRelation('T7','beubeuh','encule')
 
-f.view()
+
 
 g=rdflib.Graph()
 g.load('ontology-rdf.owl')
@@ -89,12 +89,18 @@ for row in individues:
 
 for classe in instances:
     print "%s instance of %s" %(classe[0],classe[1])
+    createInstance(classe[0],classe[1])
 
 for classe in classes:
     print "%s subClassOf of %s" %(classe[0],classe[1])
+    createClass(classe[0],classe[1])
 
 for classe in classesMere:
     print "%s " %(classe)
+
+
+
+f.view()
 
 
 # for s,p,o in g:
