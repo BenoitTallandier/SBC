@@ -37,6 +37,24 @@ def createRelation (relationRange,domain,relationName):
 g=rdflib.Graph()
 g.load('ontology-rdf.owl')
 
+classMoreInstancied = g.query(
+    """
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    SELECT ?class (COUNT(?sub) as ?subCount)
+    WHERE {
+        ?sub rdf:type ?type.
+        ?sub a ?class.
+        FILTER( ?class = owl:NamedIndividual).
+        FILTER (?type != owl:NamedIndividual)
+    }
+    GROUP BY ?class
+    ORDER BY DESC(?subCount)
+    """+("LIMIT "+str(limitInstance) if(int(limitInstance))>0 else "")
+)
+
 individues = g.query(
     """
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
