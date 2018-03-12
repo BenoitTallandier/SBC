@@ -19,6 +19,7 @@ def createInstance (nameInstance,className):
     f.edge(nameInstance,className,'rdf:type')
 
 def createRelation (relationRange,domain,relationName):
+    print("############")
     f.attr('node', shape='box')
     f.node(relationRange)
     f.node(domain)
