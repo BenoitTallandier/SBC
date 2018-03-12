@@ -154,8 +154,6 @@ for prop in properties:
     }
     """
 
-    print (propertiesQuery2)
-
     rows = g.query(propertiesQuery2)
 
     for row in rows:
@@ -167,6 +165,64 @@ for prop in properties:
 
         if newRow not in propertiesEffective:
             propertiesEffective.append(newRow)
+
+    propertiesQuery2 = """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX me: <"""+me+"""#>
+        SELECT  DISTINCT ?classDomain ?classRange
+        WHERE
+        {
+        	?d me:"""+prop[0]+""" ?r.
+        	?d rdf:type ?classDomain.
+        	?r rdf:type ?classRange.
+        	FILTER (?classDomain != owl:NamedIndividual)
+        	FILTER (?classRange != owl:NamedIndividual)
+        }
+    """
+
+    rows = g.query(propertiesQuery2)
+
+    i=0
+    allRangeEqual = True
+    allDomainEqual = True
+    oldRange = prop[1]
+    oldDomain = prop[2]
+    propertyName = prop[0]
+    for row in rows:
+        if(i==0):
+            newRange = row[1]
+            newDomain = row[0]
+            i+=1
+        if (allRangeEqual and newRange != row[1]):
+            allRangeEqual = False
+        if (allDomainEqual and newDomain != row[0]):
+            allDomainEqual = False
+        if (not allRangeEqual and not allDomainEqual):
+            break
+
+    if(len(newRange.split("#"))>1):
+        newRange = newRange.split("#")[1]
+    if(len(newDomain.split("#"))>1):
+        newDomain = newDomain.split("#")[1]
+
+    if (allRangeEqual and not allDomainEqual):
+        properties.remove(prop)
+        newRow = (propertyName,oldDomain,newRange)
+    elif (not allRangeEqual and allDomainEqual):
+        properties.remove(prop)
+        newRow = (propertyName,newDomain,oldRange)
+    elif (allRangeEqual and allDomainEqual):
+        properties.remove(prop)
+        newRow = (propertyName,newDomain ,newRange)
+    else :
+        newRow = prop
+
+    if newRow not in properties:
+        properties.append(newRow)
+
 
 
 for classe in instances:
