@@ -7,10 +7,10 @@ import rdflib
 f = Digraph('hierarchie', filename='visualisation.gv')
 f.attr(rankdir='LR', size='8,5')
 
-
 def createClass (nameClass,parentName):
     f.attr('node', shape='circle')
     f.edge(nameClass,parentName,'rdf:subClassOf')
+
 
 def createInstance (nameInstance,className):
     f.attr('node', shape='circle')
@@ -97,6 +97,7 @@ for classe in classes:
 
 for classe in classesMere:
     print "%s " %(classe)
+    createClass(classe[0],classe[1])
 
 
 

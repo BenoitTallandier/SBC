@@ -41,6 +41,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d_umbar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d_umbar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Hommes"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Creature_du_mordor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Creature_du_mordor">
@@ -162,11 +170,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d_erebor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d_erebor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Nains"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_de_la_moria"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_de_la_moria -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_de_la_moria">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Nains"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor"/>
     </owl:Class>
     
 
@@ -191,22 +207,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#semi_homme">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Creatures"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d&apos;umbar -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d&apos;umbar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Hommes"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Nains"/>
     </owl:Class>
     
 
@@ -275,7 +275,7 @@
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#balin -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#balin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d_erebor"/>
     </owl:NamedIndividual>
     
 
@@ -291,7 +291,7 @@
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#bofur -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#bofur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d_erebor"/>
     </owl:NamedIndividual>
     
 
@@ -299,7 +299,7 @@
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#bombur -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#bombur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d_erebor"/>
     </owl:NamedIndividual>
     
 
@@ -360,6 +360,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#l_orc_pale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#l_orc_pale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#orcs"/>
+        <a_tué rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#thorin"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#la_bouche_de_sauron -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#la_bouche_de_sauron">
@@ -404,7 +413,7 @@
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#peter_jackson -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#peter_jackson">
-        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d&apos;umbar"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d_umbar"/>
     </owl:NamedIndividual>
     
 
@@ -452,8 +461,8 @@
     <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#thorin -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#thorin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d&apos;erebor"/>
-        <a_tué rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#l&apos;orc_pâle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#nains_d_erebor"/>
+        <a_tué rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#l_orc_pale"/>
     </owl:NamedIndividual>
     
 
@@ -479,15 +488,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#éowyn">
         <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#demoiselles_protectrice_du_rohan"/>
         <a_tué rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#le_roi_sorcier_d&apos;angmar"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#l&apos;orc_pâle -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#l&apos;orc_pâle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#orcs"/>
-        <a_tué rdf:resource="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#thorin"/>
     </owl:NamedIndividual>
     
 
@@ -520,6 +520,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d_umbar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Haradrims"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Homme_du_gondor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Hommes_du_rohan"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Creature_du_mordor"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Elfes"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Hommes"/>
@@ -535,15 +544,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Nains"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#magiciens"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#semi_homme"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Haradrims"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Homme_du_gondor"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Hommes_du_rohan"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/stefy/ontologies/2018/2/untitled-ontology-4#Corsaires_d&apos;umbar"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
