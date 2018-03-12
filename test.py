@@ -4,6 +4,10 @@ from graphviz import Digraph
 import rdflib
 
 
+### options ###
+instanceMaxParNoeud = 7;
+
+
 f = Digraph('hierarchie', filename='visualisation.gv')
 f.attr(rankdir='LR', size='8,5')
 
@@ -34,13 +38,16 @@ individues = g.query(
     PREFIX owl: <http://www.w3.org/2002/07/owl#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-    SELECT ?sub ?type
+    SELECT ?sub ?type (COUNT(?sub) as ?subCount)
     WHERE {
         ?sub rdf:type ?type.
         ?sub a ?class.
       FILTER( ?class = owl:NamedIndividual).
       FILTER (?type != owl:NamedIndividual)
-    }""")
+    }
+    GROUP BY ?type
+    ORDER BY DESC(?subCount)
+    """+("""LIMIT """+str(instanceMaxParNoeud) if instanceMaxParNoeud>0 else """"""))
 
 instances = []
 classes = []
