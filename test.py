@@ -25,15 +25,6 @@ def createRelation (relationRange,domain,relationName):
     f.edge(relationRange,domain,relationName)
 
 
-createInstance('freiou','Homme')
-createInstance('beubeuh','Homme')
-createClass('Homme','Homme')
-createClass('Homme','Creature')
-createRelation('beubeuh','freiou','encule')
-createRelation('freiou','T7','encule')
-createRelation('T7','beubeuh','encule')
-
-
 
 g=rdflib.Graph()
 g.load('ontology-rdf.owl')
@@ -95,9 +86,6 @@ for row in individues:
                 if motherClassName not in classesNames:
                     classesNames.append(motherClassName)
 
-for classe in instances:
-    #print "%s instance of %s" %(classe[0],classe[1])
-    pass
 
 for classe in classes:
     className = classe[1]
@@ -152,14 +140,13 @@ for className in classesNames:
         if newRow not in properties:
             properties.append(newRow)
 
-
+for classe in instances:
+    createInstance(classe[0],classe[1])
+    #print "%s instance of %s" %(classe[0],classe[1])
 
 for prop in properties:
     print "prop:%s range:%s dom:%s" %(prop[0],prop[1],prop[2])
-
-for classe in classes:
-    #print "%s subClassOf of %s" %(classe[0],classe[1])
-    pass
+    createRelation(prop[1],prop[2],prop[0])
 
 for classe in classes:
     print "%s subClassOf of %s" %(classe[0],classe[1])
@@ -167,10 +154,8 @@ for classe in classes:
 
 for classe in classesNames:
     print "%s " %(classe)
-    createClass(classe[0],classe[1])
 
-
-
+#f.render('test-output/round-table.gv', view=True)
 f.view()
 
 
