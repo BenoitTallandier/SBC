@@ -2,8 +2,6 @@
 
 from graphviz import Digraph
 import rdflib
-
-
 f = Digraph('finite_state_machine', filename='fsm.gv')
 f.attr(rankdir='LR', size='8,5')
 
@@ -39,13 +37,16 @@ qres = g.query(
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     PREFIX me: <http://www.semanticweb.org/teset1u/ontologies/2018/2/untitled-ontology-11#>
-    SELECT ?type
+    SELECT ?entity ?type
     WHERE {
-      ?type rdfs:subClassOf me:homme_du_rohan.
+      ?entity rdf:type ?type.
     }""")
 
 for row in qres:
-    print("%s knows" %row)
+    if(len(row[0].split("#"))>1 and len(row[1].split("#"))>1):
+        instance = row[0].split("#")[1]
+        className = row[1].split("#")[1]
+        print("%s knows %s" %(instance, className))
 
-#for s,p,o in g:
+# for s,p,o in g:
 #    print s,p,o
