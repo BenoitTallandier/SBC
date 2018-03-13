@@ -17,18 +17,18 @@ f.attr(rankdir='LR', size='8,5')
 
 
 def createClass (nameClass,parentName):
-    f.attr('node', shape='circle')
+    f.attr('node', shape='oval')
     f.edge(nameClass,parentName,'rdf:subClassOf')
 
 
 def createInstance (nameInstance,className):
-    f.attr('node', shape='circle')
+    f.attr('node', shape='oval')
     f.node(className)
     f.attr('node', shape='box')
     f.edge(nameInstance,className,'rdf:type')
 
 def createRelation (relationRange,domain,relationName):
-    f.attr('node', shape='circle')
+    f.attr('node', shape='oval')
     f.node(relationRange)
     f.node(domain)
     f.edge(relationRange,domain,relationName)
